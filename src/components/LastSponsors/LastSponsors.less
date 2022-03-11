@@ -1,0 +1,57 @@
+@height: 95px;
+@card-width: 160px;
+
+.last-sponsors{
+    position: absolute;
+    bottom: 3vh;
+    left: 0;
+    overflow: hidden;
+    text-align: center; 
+    &.mobile{
+        bottom: 18vh;
+    }
+    ul{
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        height: @height;
+        .card{
+            position: relative;
+            display: inline-block;
+            padding: 20px;
+            height: 100%;
+            width: @card-width;
+            margin: 0px 20px;
+            top: 0;
+            overflow: hidden;
+            .amount{
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                font-weight: bold;
+            }
+            .icon{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .active{
+                position: relative;
+                display: inline-block !important;
+                width: 100%;
+                height: 100%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            .message{
+                display: none;
+                font-size: 12px;
+            }
+            .name{
+                display: none;
+                font-size: 20px;
+            }
+        }
+    }
+}

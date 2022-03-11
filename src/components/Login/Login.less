@@ -1,0 +1,27 @@
+#login {
+    .need-logged-in {
+        position: relative;
+        .panel {
+            cursor: pointer;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            background: white;
+            z-index: 99;
+            opacity: 0.8;
+        }
+        .text {
+            text-align: center;
+            color: red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 100;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+}

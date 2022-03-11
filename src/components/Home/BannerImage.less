@@ -1,0 +1,41 @@
+#space {
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    .stars {
+        animation-name: stars-anim;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        position: absolute;
+        top: -10%;
+    }
+    #logo {
+        position: absolute;
+        width: 200px;
+        left: 20%;
+        top: 20%;
+    }
+}
+
+#banner-image {
+    video {
+        position: absolute;
+        top: 0;
+        height: calc(100vh + 164px);
+    }
+}
+
+@keyframes stars-anim {
+    from {
+        transform: translateX(0px);
+        top: -10%;
+    }
+    to {
+        transform: translateX(-1700px);
+        top: 110%;
+    }
+}

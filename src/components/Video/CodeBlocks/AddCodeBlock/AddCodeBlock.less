@@ -1,0 +1,28 @@
+@import "../CodeBlock/CodeBlock.less";
+#code-blocks {
+    .code-block {
+        // Placeholder
+        .placeholder {
+            opacity: 0.5;
+            border: 1px dotted black;
+        }
+        .add-icon,
+        .move-icon,
+        .delete-icon {
+            position: absolute;
+            pointer-events: none;
+            top: 20%;
+            transform: translateX(-50%);
+            font-size: 35px;
+        }
+        .add-icon {
+            left: 50%;
+        }
+        .move-icon {
+            left: 25%;
+        }
+        .delete-icon {
+            left: 75%;
+        }
+    }
+}

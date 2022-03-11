@@ -1,0 +1,12 @@
+FROM node:10.15.3
+
+ARG API_PATH
+ARG GOOGLE_CLIENT_ID
+
+WORKDIR /usr/src/app
+COPY . .
+ENV REACT_APP_API_PATH $API_PATH
+ENV REACT_APP_GOOGLE_CLIENT_ID $GOOGLE_CLIENT_ID 
+RUN npm install && npm run build
+EXPOSE 3000
+CMD [ "npm", "run", "serve" ]

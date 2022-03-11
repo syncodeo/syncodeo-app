@@ -1,0 +1,69 @@
+#code-blocks-div {
+    #code-blocks {
+        .code-block:not(:first-child) {
+            margin-top: 15px;
+        }
+        .code-block {
+            clear: both;
+            position: relative;
+            width: 100%;
+            height: 55px;
+            overflow: visible;
+            .svg-code-block {
+                width: 100%;
+                height: 100%;
+                overflow: visible;
+            }
+            .svg-title,
+            .svg-langauge {
+                cursor: pointer;
+                transform: scale(0.95);
+                transition: transform 0.2s ease-in-out;
+            }
+            .svg-title {
+                transform-origin: left;
+            }
+            .svg-langauge {
+                transform-origin: center;
+            }
+            .svg-title.active,
+            .svg-langauge.active,
+            .svg-title:hover,
+            .svg-langauge:hover {
+                transform: scale(1);
+            }
+            .title {
+                font-weight: bold;
+                pointer-events: none;
+                position: absolute;
+                top: 50%;
+                left: 5px;
+            }
+            .time {
+                pointer-events: none;
+                position: absolute;
+                top: 5%;
+                left: 5px;
+            }
+            .language-name {
+                pointer-events: none;
+                font-size: 25px;
+                font-weight: bold;
+                position: absolute;
+                bottom: 2px;
+                right: 15px;
+            }
+            .icons {
+                pointer-events: none;
+                position: absolute;
+                right: 14px;
+                top: 1px;
+            }
+            .icons li {
+                margin-left: 2px;
+                margin-right: 5px;
+                display: inline-block;
+            }
+        }
+    }
+}

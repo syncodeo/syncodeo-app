@@ -1,0 +1,107 @@
+/** page1 **/
+
+#home {
+    .text{
+        text-align: center;
+        width: 100%;
+        font-size: 42px;
+        margin-top: 30px;
+    }
+    .text-2{
+        margin-top: 35px;
+    }
+    .what-syncodeo {
+        background: transparent;
+        height: 750px;
+    }
+    .what-syncodeo-line.title-line-wrapper {
+        width: 312px;
+        margin: 24px auto 76px;
+        .title-line {
+            animation: page1TitleLine 3s ease-in-out 1.5s infinite;
+        }
+    }
+    .what-syncodeo-bg {
+        font-size: 320px;
+        color: #ebedf0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        opacity: .25;
+        top: 0;
+        transform: translateY(960px);
+    }
+    .what-syncodeo-box-wrapper {
+        margin-top: 62px;
+        margin-bottom: 62px;
+        display: flex;
+        align-items: flex-start;
+        li {
+            width: 33.33%;
+            display: inline-block;
+            will-change: transform;
+            .what-syncodeo-box {
+                width: 194px;
+                margin: auto;
+                text-align: center;
+                position: relative;
+                .what-syncodeo-image {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 40px;
+                    margin: 20px auto 32px;
+                    position: relative;
+                    z-index: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fff;
+                    transition: box-shadow .3s ease-out, transform .3s ease-out;
+                }
+                &:hover .what-syncodeo-image {
+                    transform: translateY(-5px);
+                }
+                h3 {
+                    color: #0d1a26;
+                    font-size: 16px;
+                    margin: 8px auto;
+                }
+            }
+        }
+    }
+    .what-syncodeo-point-wrapper {
+        position: absolute;
+        width: 0;
+        left: 50%;
+        top: 0;
+        .point-0 {
+            width: 4px;
+            height: 4px;
+        }
+        .point-2,
+        .point-ring {
+            width: 10px;
+            height: 10px;
+        }
+        .point-ring {
+            border-style: solid;
+            border-width: 1px;
+            background: transparent !important;
+        }
+        .point-1 {
+            width: 6px;
+            height: 6px;
+        }
+        .point-3 {
+            width: 15px;
+            height: 15px;
+        }
+        i {
+            display: inline-block;
+            border-radius: 100%;
+            position: absolute;
+            opacity: 0;
+            transform: translate(0, 30px);
+        }
+    }
+}

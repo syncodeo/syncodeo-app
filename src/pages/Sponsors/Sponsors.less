@@ -1,0 +1,50 @@
+@import '../../antd-custom.less';
+
+#sponsors{
+    padding: 15px;
+    background: white;
+    .why-donate-card{
+        text-align: center;
+        img{
+            margin: auto;
+            padding: 30px;
+            height: 150px;
+            width: 150px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    @sponsor-height: 100px;
+    .sponsor{
+        height: @sponsor-height;
+        max-height: @sponsor-height;
+        min-height: @sponsor-height;
+        h4, p{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .show-more{
+            position: absolute;
+            width: 100%;
+            cursor: pointer;
+            left: 0;
+            bottom: 15px;
+            text-align: center;
+            &:hover{
+                color: @primary-color;
+            }
+        }
+    }
+    .sponsor-drawer{
+        .email{
+            color: grey;
+            font-size: 14px;
+        }
+    }
+}
