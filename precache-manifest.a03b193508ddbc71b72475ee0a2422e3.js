@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/html.worker.js"
   },
   {
-    "revision": "97ab465ce34b37fe494ae110f6899d9d",
+    "revision": "b9bf68140992defecafbdc2811fd96ca",
     "url": "/index.html"
   },
   {
