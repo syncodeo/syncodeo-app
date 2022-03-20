@@ -16,7 +16,7 @@ class Footer extends React.Component<IProps, any>{
                     <Row>
                         <Col lg={6} sm={24} xs={24}>
                             <div className="footer-center">
-                                <h2>Syncodéo</h2>
+                                <h2>Syncodeo</h2>
                                 {
                                     this.props.isLogged && (
                                         <div>
@@ -50,7 +50,7 @@ class Footer extends React.Component<IProps, any>{
                                     UI build with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Ant Design</a>.
 				                </div>
                                 <div>
-                                    Syncodéo logo made by <a href="https://amandinebody.fr/" target="_blank" rel="noopener noreferrer">Amandine Body</a>.
+                                    Syncodeo logo made by <a href="https://amandinebody.fr/" target="_blank" rel="noopener noreferrer">Amandine Body</a>.
 				                </div>
                                 <div>
                                     Brand logos belong to their brand.
@@ -59,7 +59,7 @@ class Footer extends React.Component<IProps, any>{
                                     Icons was made by <a href="https://www.flaticon.com/authors/eucalyp" target="_blank" rel="noopener noreferrer">Eucalyp</a>.
 				                </div>
                                 <div>
-                                    Youtube, GitHub and Google Sign-In are not associated to Syncodéo.
+                                    Youtube, GitHub and Google Sign-In are not associated to Syncodeo.
 				                </div>
                             </div>
                         </Col>

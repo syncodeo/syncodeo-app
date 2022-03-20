@@ -23,8 +23,8 @@ app.get('/*', function (req, res) {
         }
 
         // Initialiser les valeurs par défaut des variables
-        let title = 'Syncodéo';
-        let description = 'Syncodéo is an online platform that synchronize videos and codes at the same place. Learn faster. Share better. Increase accessibility together. Through a unique platform.';
+        let title = 'Syncodeo';
+        let description = 'Syncodeo is an online platform that synchronize videos and codes at the same place. Learn faster. Share better. Increase accessibility together. Through a unique platform.';
         let image = 'https://syncodeo.io/assets/logo.png';
 
         if (req.query.v) {
@@ -33,7 +33,7 @@ app.get('/*', function (req, res) {
                     method: 'GET',
                     url: 'http://localhost:3001/v1/videos/' + req.query.v,
                 });
-                title = result.data.title + " - Syncodéo";
+                title = result.data.title + " - Syncodeo";
                 description = result.data.description;
                 image = 'https://img.youtube.com/vi/' + req.query.v + '/maxresdefault.jpg';
             } catch(error){ }

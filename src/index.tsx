@@ -111,7 +111,7 @@ class App extends React.Component<IProps, IState> {
         });
 
         this.unregisterHistoryListen = this.history.listen((location, action) => {
-            document.title = "Syncodéo";
+            document.title = "Syncodeo";
             store.dispatch(resetLoading());
             if (store.getState().show404) {
                 store.dispatch({ type: UPDATE_SHOW_404, show404: false, });

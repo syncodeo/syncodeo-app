@@ -185,7 +185,7 @@ class WhySyncodeo extends React.Component<IProps, IState> {
         return (
             <div className={`home-page why-syncodeo ${this.props.isMobile && "mobile"}`} >
                 <div className="home-page-wrapper" id="why-syncodeo-wrapper">
-                    <h2>Syncodéo in <span>9 features</span>!</h2>
+                    <h2>Syncodeo in <span>9 features</span>!</h2>
                     <List
                         grid={{ column: this.props.isMobile ? 2 : 3 }}
                         dataSource={this.state.featuresCN}

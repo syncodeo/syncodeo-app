@@ -136,7 +136,7 @@ class Watch extends React.Component<IProps, IState> {
         incrementLoading();
         try {
             const { data: video } = await getVideoInfo(this.state.videoId);
-            document.title = video.title + " - Syncodéo";
+            document.title = video.title + " - Syncodeo";
             this.setState({ video, });
         } catch{ }
         decrementLoading();

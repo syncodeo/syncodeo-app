@@ -80,7 +80,7 @@ class SponsorsModal extends React.Component<IProps, IState>{
                         key="2"
                         token={(token) => this.onToken(token, donationAmount * 100)}
                         stripeKey="pk_test_FidWKGf2JCahrpY1wmOAo05j"
-                        name="Syncodéo"
+                        name="Syncodeo"
                         image="https://syncodeo.io/static/media/logo.1d465541.png"
                         panelLabel="Pay"
                         email={form.getFieldValue('email')}

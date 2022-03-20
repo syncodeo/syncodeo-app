@@ -59,15 +59,15 @@ class Sponsors extends React.Component<IProps, IState>{
                 <Row style={{ marginBottom: 55 }}>
                     <Col className="why-donate-card" lg={8} xs={24}>
                         <img src={require('../../img/sponsors/growth.svg')} alt="Syncodeo logo" />
-                        <p>Syncodéo stays <b>free</b></p>
+                        <p>Syncodeo stays <b>free</b></p>
                         <ul>
-                            <li>- Syncodéo is a adless and premiumless for a reason;</li>
+                            <li>- Syncodeo is a adless and premiumless for a reason;</li>
                             <li>- Take part of knwoledge opening.</li>
                         </ul>
                     </Col>
                     <Col className="why-donate-card" lg={8} xs={24}>
                         <img src={require('../../img/sponsors/income.svg')} alt="Syncodeo logo" />
-                        <p>Give <b>power</b> to Syncodéo</p>
+                        <p>Give <b>power</b> to Syncodeo</p>
                         <ul>
                             <li>- Money allows expansion.</li>
                         </ul>
@@ -81,8 +81,8 @@ class Sponsors extends React.Component<IProps, IState>{
                     </Col>
                 </Row>
                 <p style={{ marginBottom: 30 }}>
-                    Syncodéo is a free to use platform and will always be! <br />
-                    If you share our values and want to take part of the journey please consider supporting Syncodéo by macking a donation.
+                    Syncodeo is a free to use platform and will always be! <br />
+                    If you share our values and want to take part of the journey please consider supporting Syncodeo by macking a donation.
                 </p>
                 <div style={{ width: '100%', textAlign: 'center', marginBottom: 15 }}>
                     <Button type="primary" onClick={() => this.setState({ modalVisible: true })}>SUPPORT SYNCODEO NOW!</Button>
