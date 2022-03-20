@@ -162,11 +162,6 @@ class LeftMenu extends React.Component<IProps, IState> {
                         </Menu.Item>
 
                         <Menu.SubMenu key="info" title={<span><Icon type="info" /><span>{translate('information')}</span></span>}>
-                            <Menu.Item key="story" >
-                                <Link to="/story" onClick={e => e.stopPropagation()}>
-                                    <span>{translate('story')}</span>
-                                </Link>
-                            </Menu.Item>
                             <Menu.Item key="terms">
                                 <Link to="/terms" onClick={e => e.stopPropagation()}>
                                     <span>{translate('terms')}</span>

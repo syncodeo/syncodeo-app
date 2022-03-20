@@ -157,7 +157,6 @@ class App extends React.Component<IProps, IState> {
     render() {
         const Home = React.lazy(() => import('./pages/Home'));
         const Watch = React.lazy(() => import('./pages/Watch/Watch'));
-        const Story = React.lazy(() => import('./pages/Story/Story'));
         const Terms = React.lazy(() => import('./pages/Terms/Terms'));
         const Search = React.lazy(() => import('./pages/Search/Search'));
         const User = React.lazy(() => import('./pages/User/User'));
@@ -177,7 +176,6 @@ class App extends React.Component<IProps, IState> {
                             <Layout history={this.history}>
                                 <Switch>
                                     <Route path="/watch" render={(props) => <Watch route={props} />} exact />
-                                    <Route path="/story" render={props => <Story />} exact />
                                     <Route path="/terms" render={props => <Terms />} exact />
                                     <Route path="/search" render={props => <Search route={props} />} exact />
                                     {/* TODO: Add for sponsors */}

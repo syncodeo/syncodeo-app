@@ -31,7 +31,7 @@ class Terms extends React.Component<IProps, IState> {
                 Hosting provider : <a href="https://www.ovh.fr/" rel="noopener noreferrer" target="_blank">OVH</a>
                 <br /><br />
                 Customer service :<br /><br />
-                You can reach us by email at <a href="mailto:contact@syncodeo.io">contact@syncodeo.io</a>.
+                You can reach us by email at <a href="mailto:scarren.pro@gmail.com">scarren.pro@gmail.com</a>.
                 </div>
         )
     }

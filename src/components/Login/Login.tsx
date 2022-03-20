@@ -107,7 +107,7 @@ class Login extends React.Component<IProps, IState>{
                 <div id="login">
                     <div className="need-logged-in">
                         <div className="panel" onClick={this.onClick}></div>
-                        <span className="text">
+                        <span className="text" style={{ pointerEvents: 'none' }}>
                             {translate('needBeLogin')}
                             <br />
                             {translate('clickToLogin')}

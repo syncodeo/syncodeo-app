@@ -111,10 +111,10 @@ class SponsorsModal extends React.Component<IProps, IState>{
                                     message: translate('errorRequire')
                                 }, {
                                     pattern: REGEX_EMAIL,
-                                    message: translate('errorEmail', { ex: 'contact@syncodeo.io' })
+                                    message: translate('errorEmail', { ex: 'scarren.pro@gmail.com' })
                                 }]
                             })(
-                                <Input placeholder="contact@syncodeo.io" />
+                                <Input placeholder="scarren.pro@gmail.com" />
                             )}
                         </Form.Item>
                         <Form.Item label="Link">

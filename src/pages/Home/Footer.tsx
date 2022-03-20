@@ -27,9 +27,6 @@ class Footer extends React.Component<IProps, any>{
                                 <div>
                                     <Link to="/search">Search for a video</Link>
                                 </div>
-                                <div>
-                                    <Link to="/story">Story</Link>
-                                </div>
                             </div>
                         </Col>
                         <Col lg={6} sm={24} xs={24}>
@@ -37,11 +34,6 @@ class Footer extends React.Component<IProps, any>{
                                 <h2>Community</h2>
                                 <div>
                                     <Link to="/search?feedback">Get in touch</Link>
-                                </div>
-                                <div>
-                                    <a href="https://discuss.syncodeo.io" target="_blank" rel="noopener noreferrer">
-                                        Forum
-                                    </a>
                                 </div>
                                 <div>
                                     <a href="https://twitter.com/syncodeo" target="_blank" rel="noopener noreferrer">
@@ -82,7 +74,7 @@ class Footer extends React.Component<IProps, any>{
                         </Col>
                         <Col lg={18} sm={24}>
                             <span style={{ lineHeight: '16px', paddingRight: 12, marginRight: 11, borderRight: '1px solid rgba(255, 255, 255, 0.55)', }}>
-                                <a href="mailto:contact@syncodeo.io">
+                                <a href="mailto:scarren.pro@gmail.com">
                                     Contact
 				                </a>
                             </span>

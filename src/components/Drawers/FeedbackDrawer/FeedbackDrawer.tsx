@@ -82,15 +82,16 @@ class FeedbackDrawer extends React.Component<IProps, IState>{
                 width={400}
                 onClose={this.props.onCloseFeedbackDrawer}
             >
-                <Button size="large" type="primary" style={{ marginTop: 10, backgroundColor: '#E7682F' }} block={true} href="https://discuss.syncodeo.io" target="_blank">
+                <Button size="large" type="primary" style={{ marginTop: 10, backgroundColor: '#5865F2' }} block={true} href="https://discord.gg/aASfZvxC" target="_blank">
                     <Icon type="message" theme="filled" style={{ position: 'absolute', left: 15, fontSize: 24, marginTop: 7, }} />
-                    Discuss on the forum!
+                    {/* <img width="24" style={{ marginRight: 5 }} src={require('../../img/discord.svg')} /> */}
+                    Join us on Discord!
                 </Button>
                 <Button size="large" type="primary" style={{ marginTop: 15, backgroundColor: '#38A1F3' }} block={true} href="https://twitter.com/syncodeo" target="_blank">
                     <Icon type="twitter" style={{ position: 'absolute', left: 15, fontSize: 24, marginTop: 7 }} />
                     DM are enabled!
                 </Button>
-                <Button size="large" type="primary" style={{ marginTop: 15, backgroundColor: '#D44638' }} block={true} href="mailto:contact@syncodeo.io">
+                <Button size="large" type="primary" style={{ marginTop: 15, backgroundColor: '#D44638' }} block={true} href="mailto:scarren.pro@gmail.com">
                     <Icon type="mail" theme="filled" style={{ position: 'absolute', left: 15, fontSize: 24, marginTop: 7 }} />
                     Email us!
                 </Button>

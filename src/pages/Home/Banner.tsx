@@ -1,7 +1,7 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
-import { Button } from 'antd';
+import { Button, Icon } from 'antd';
 import { Link } from 'react-router-dom';
 import LogoHome from './component/LogoHome';
 import LastSponsors from '../../components/LastSponsors/LastSponsors';
@@ -29,10 +29,13 @@ export default class Banner extends React.Component<IProps, IState>{
                 </p>
                     <div key="button" className="button-wrapper">
                         <Link to="/search">
-                            <Button type="primary">Search for a video</Button>
+                            <Button type="primary">
+                                <Icon type='search' />
+                                Search for a video
+                            </Button>
                         </Link>
-                        <a href="https://discuss.syncodeo.io/d/1-open-beta-is-here-be-ready" target="_blank" rel="noopener noreferrer">
-                            <Button style={{ margin: '0 16px' }} type="primary" ghost>Learn more</Button>
+                        <a href="https://discord.gg/aASfZvxC" target="_blank" rel="noopener noreferrer">
+                            <Button style={{ margin: '0 16px' }} type="primary" ghost><img width="24" style={{ marginRight: 5 }} src={require('../../img/discord.svg')} /> Join us on Discord</Button>
                         </a>
                     </div>
                 </QueueAnim>
